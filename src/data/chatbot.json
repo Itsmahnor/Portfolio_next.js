@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "id": "about_me",
+      "keywords": ["who", "about", "yourself", "introduce", "mahnoor", "background"],
+      "phrases": [
+        "Tell me about yourself",
+        "Who are you?",
+        "Introduce yourself",
+        "Tell me about Mahnoor",
+        "Can you introduce yourself?",
+        "What do you do?",
+        "What is your background?"
+      ],
+      "answer": "Mahnoor Sarfraz is a dedicated Full-Stack Developer specializing in the MERN stack, Next.js, and React Native. She has over a year of experience building production-level applications and is currently working at TechsArk. She's also an AI enthusiast who loves integrating LLMs into web applications."
+    },
+    {
+      "id": "skills",
+      "keywords": ["tech", "stack", "skills", "technologies", "know", "frameworks", "languages", "frontend", "backend"],
+      "phrases": [
+        "What technologies do you know?",
+        "What is your tech stack?",
+        "What skills do you have?",
+        "What frameworks have you worked with?",
+        "Tell me about your technical skills",
+        "What are your expertises?"
+      ],
+      "answer": "Her technical stack includes React, Next.js, TypeScript, and Tailwind CSS on the frontend. For backend, she uses Node.js, Express, and MongoDB. She's also proficient in React Native for mobile and has experience with AI tools like LangChain, OpenAI, and Google Gemini API."
+    },
+    {
+      "id": "experience",
+      "keywords": ["experience", "work", "job", "career", "techsark", "internship"],
+      "phrases": [
+        "What is your work experience?",
+        "Where do you work?",
+        "Tell me about your career",
+        "Have you worked before?",
+        "What is your professional background?"
+      ],
+      "answer": "Mahnoor is currently a Junior React & React Native Developer at TechsArk, where she works on a B2B platform called Qafalah. Previously, she completed a 6-month frontend internship at Tech Fighters. She has experience in both web and mobile development within professional team environments."
+    },
+    {
+      "id": "projects",
+      "keywords": ["projects", "portfolio", "build", "worked on", "showcase"],
+      "phrases": [
+        "Show me your projects",
+        "What have you built?",
+        "Tell me about your portfolio",
+        "What are your best projects?",
+        "Can I see your work?"
+      ],
+      "answer": "Mahnoor has built several impressive projects, including an Autonomous Research Agent using LangGraph, an AI-Powered Code Reviewer, and a MERN stack real estate platform. You can find more details in the Projects section of this website!"
+    },
+    {
+      "id": "ai_experience",
+      "keywords": ["ai", "llm", "openai", "gemini", "langchain", "agents", "machine learning"],
+      "phrases": [
+        "Tell me about your AI experience",
+        "Have you worked with AI?",
+        "What LLMs have you used?",
+        "Do you know how to build AI agents?",
+        "What is your experience with Google Gemini?"
+      ],
+      "answer": "She is deeply involved in the AI space. She has built autonomous agents using LangGraph and Groq, integrated multimodal pipelines with Gemini API for damage claim verification, and developed AI code reviewers using OpenAI. She's passionate about how AI can improve real-world products."
+    },
+    {
+      "id": "contact",
+      "keywords": ["contact", "email", "reach", "hire", "hire you", "talk", "message"],
+      "phrases": [
+        "How can I contact you?",
+        "What is your email?",
+        "How do I hire you?",
+        "Can we talk?",
+        "Where can I reach you?"
+      ],
+      "answer": "You can reach Mahnoor via email at mahnoorsarfraz23@gmail.com or by using the contact form at the bottom of this page. She's also active on LinkedIn!"
+    },
+    {
+      "id": "resume",
+      "keywords": ["resume", "cv", "download", "document"],
+      "phrases": [
+        "Can I see your resume?",
+        "Download your CV",
+        "Where is your resume?",
+        "Do you have a CV?"
+      ],
+      "answer": "You can download her resume by clicking the 'Download Resume' button in the Hero section or the header. It contains a detailed overview of her education, skills, and experience."
+    }
+  ],
+  "fallback": "I'm designed to answer questions about Mahnoor, her projects, skills, experience, and services. Could you please rephrase your question or ask something specific about her work?",
+  "greetings": {
+    "keywords": ["hi", "hello", "hey", "greetings"],
+    "answer": "Hi! I'm Mahnoor's AI assistant. How can I help you today? You can ask about her projects, skills, or experience."
+  }
+}

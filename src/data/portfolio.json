@@ -1,0 +1,195 @@
+{
+  "profile": {
+    "name": "Mahnoor Sarfraz",
+    "role": "Full-Stack Developer",
+    "avatar": "/avatar.png",
+    "resumeUrl": "/resume.pdf",
+    "availability": "Available for freelance projects",
+    "tagline": "Building fast, reliable web and mobile applications, and adding AI-powered features when they genuinely improve the product.",
+    "about": "I'm a Full-Stack Developer specializing in the MERN stack, Next.js, and React Native, with hands-on experience integrating AI and LLM features using OpenAI and Google Gemini. I focus on writing clean, maintainable code that solves real business problems.",
+    "socials": {
+      "github": "https://github.com/Itsmahnor/",
+      "linkedin": "https://www.linkedin.com/in/mahnoor-sarfraz-007bb0303/",
+   "upwork": "https://www.upwork.com/freelancers/~01e9581dcaedbbbdbf",
+      "email": "mahnoorsarfraz23@gmail.com"
+    }
+  },
+  "about": {
+   "journey": "I've worked as a Junior React and React Native Developer at TechsArk, building features for Qafalah — a production B2B platform used for visa processing and sponsorship transfer services. Alongside that, I've built several AI-powered projects on my own — including an autonomous research agent, an AI code reviewer, and a multimodal AI pipeline for document verification — combining my full-stack skills with practical LLM integration.",
+    "experienceYears": 1,
+    "education": [
+      {
+        "degree": "Bachelor of Computer Science (BCompSc)",
+        "institution": "Government College Women University, Sialkot",
+        "duration": "2022 - 2026"
+      },
+      {
+        "degree": "Associate's Degree, Computer Science",
+        "institution": "Shadab Group of Colleges",
+        "duration": "2020 - 2022"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "861/1,773 — HackerRank Orchestrate 2026",
+        "description": "Built a multimodal AI pipeline for automated damage claim verification using Python and the Google Gemini API, combining image analysis and language understanding to process and validate claims."
+      },
+      {
+        "title": "2nd Position — C++ Problem Solving Competition",
+        "description": "Won 2nd position in a university-level C++ problem-solving competition, solving algorithmic and logic-based coding challenges under time constraints."
+      }
+    ]
+  },
+  "skills": {
+    "frontend": [
+      { "name": "React / Next.js", "level": 88 },
+      { "name": "TypeScript", "level": 75 },
+      { "name": "Tailwind CSS", "level": 85 },
+      { "name": "React Native", "level": 82 },
+      { "name": "Redux", "level": 75 }
+    ],
+    "backend": [
+      { "name": "Node.js / Express", "level": 82 },
+      { "name": "MongoDB", "level": 80 },
+      { "name": "REST APIs", "level": 85 },
+      { "name": "Firebase", "level": 70 }
+    ],
+    "tools": [
+      { "name": "Git / GitHub", "level": 85 },
+      { "name": "OpenAI API / Google Gemini API", "level": 78 },
+      { "name": "LangChain / LangGraph", "level": 70 },
+      { "name": "Vercel / Render / Netlify", "level": 80 }
+    ]
+  },
+  "experience": [
+    {
+      "company": "TechsArk",
+      "role": "Junior React & React Native Developer",
+      "duration": "December 2025 - Present",
+      "description": "Working on Qafalah, a B2B platform for managing visa processing and Tanazul (sponsorship transfer) services.",
+      "responsibilities": [
+        "Contributing to an admin dashboard system handling company records, employee management, service pricing, sales tracking, and agent workflows.",
+        "Building responsive, reusable UI components across web and mobile using React and React Native.",
+        "Integrating REST APIs to support real-time business operations."
+      ],
+      "technologies": ["React", "React Native", "REST APIs", "JavaScript"]
+    },
+    {
+      "company": "Tech Fighters",
+      "role": "Frontend Developer (Internship)",
+      "duration": "May 2024 - November 2024",
+      "description": "Completed a 6-month Frontend Development internship building responsive, user-friendly interfaces.",
+      "responsibilities": [
+        "Built interfaces using HTML, CSS, JavaScript, and React.js.",
+        "Gained hands-on experience in component-based development and REST API integration.",
+        "Used Git version control in collaborative team workflows."
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "React.js", "Git"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Autonomous Research Agent",
+      "slug": "autonomous-research-agent",
+      "description": "An AI research agent that plans, searches, reads, synthesizes, and fact-checks information without manual intervention, turning a single research question into a fully-sourced, fact-checked report.",
+      "thumbnail": "/research-agent.png",
+      "video": "https://youtu.be/ysxMRlLMVqw",
+      "category": "AI / Automation",
+      "featured": true,
+      "technologies": ["Python", "LangGraph", "Groq (Llama 3.3 70B)", "Tavily", "Streamlit"],
+      "github": "https://github.com/Itsmahnor/Research-Agent",
+      "live": "https://research-agent-nfeqmpb4pgytbxwfkgy4pb.streamlit.app/",
+      "features": [
+        "Multi-agent orchestration using LangGraph",
+        "Autonomous web searching and information synthesis",
+        "Automated fact-checking and source verification",
+        "Markdown report generation",
+        "Interactive Streamlit dashboard"
+      ],
+      "architecture": "The agent uses a graph-based architecture where different nodes represent specialized agents (Planner, Searcher, Writer, Fact-Checker). It uses LangGraph to manage state and transitions between these agents.",
+      "challenges": "One of the biggest challenges was handling the trade-off between speed and accuracy. I implemented a parallel searching mechanism to speed up data collection while maintaining strict verification loops.",
+      "futureImprovements": [
+        "Integration with more search engines",
+        "Support for local LLMs via Ollama",
+        "PDF and document upload support"
+      ]
+    },
+    {
+      "title": "MERN Estate",
+      "slug": "mern-estate",
+      "description": "Full-stack real estate platform with property listings and management, built on the MERN stack.",
+      "thumbnail": "/mern-estate.png",
+      "video": "https://youtu.be/0sljCZ3Z7K0",
+      "category": "Frontend",
+      "featured": true,
+      "technologies": ["MongoDB", "Express.js", "React", "Node.js"],
+      "github": "https://github.com/Itsmahnor/Mern-Real-Estate",
+      "live": "https://mern-estate-demo.vercel.app",
+      "features": [
+        "User authentication and authorization",
+        "Property listing management",
+        "Advanced search with filters",
+        "Image upload and storage",
+        "Responsive design with Tailwind CSS"
+      ],
+      "architecture": "Classic MERN stack with a RESTful API. The frontend is built with React and Redux for state management, while the backend uses Node.js and Express with MongoDB as the database.",
+      "challenges": "Managing complex state for property filters and ensuring efficient image handling were the primary challenges.",
+      "futureImprovements": [
+        "In-app messaging between buyers and sellers",
+        "Integration with Mapbox for location-based search",
+        "Payment gateway for premium listings"
+      ]
+    },
+    {
+      "title": "AI-Powered Code Reviewer",
+      "slug": "ai-code-reviewer",
+      "description": "Tool that gives instant code analysis and feedback, helping developers catch issues and improve code quality quickly.",
+      "thumbnail": "/code-reviewer.png",
+      "video": "https://youtu.be/9AS7t-B9Ki8",
+      "category": "AI / Developer Tools",
+      "featured": true,
+      "technologies": ["OpenAI API", "React", "Node.js"],
+      "github": "https://github.com/Itsmahnor/CodeReviewer",
+      "live": "https://ai-code-reviewer-demo.vercel.app",
+      "features": [
+        "Static code analysis using AI",
+        "Best practices and security suggestions",
+        "Multiple language support",
+        "GitHub integration",
+        "Real-time feedback"
+      ],
+      "architecture": "The tool sends code snippets to an OpenAI model with a specialized prompt for code review. The results are parsed and displayed with syntax highlighting.",
+      "challenges": "Providing relevant feedback without overwhelming the user and keeping the response time low were key focus areas.",
+      "futureImprovements": [
+        "IDE extension (VS Code)",
+        "Customizable rule sets",
+        "Support for more LLMs"
+      ]
+    },
+    {
+      "title": "Prescripto",
+      "slug": "prescripto",
+      "description": "Doctor appointment booking web application for managing patient bookings and schedules.",
+      "thumbnail": "/prescripto.png",
+      "video": "https://youtu.be/6g02Ey00Gpc",
+      "category": "Frontend",
+      "featured": false,
+      "technologies": ["MERN Stack"],
+      "github": "https://github.com/Itsmahnor/Prescripto",
+      "live": "https://prescripto-red-phi.vercel.app/",
+      "features": [
+        "Doctor and patient profiles",
+        "Appointment scheduling and management",
+        "Admin dashboard for managing doctors and appointments",
+        "Responsive UI"
+      ],
+      "architecture": "Built using the MERN stack. It uses a monolithic architecture for simplicity and ease of deployment.",
+      "challenges": "Implementing the scheduling logic to avoid double bookings was the most interesting challenge.",
+      "futureImprovements": [
+        "Automated email and SMS reminders",
+        "Telemedicine integration (video calls)",
+        "Insurance verification"
+      ]
+    }
+  ]
+}
