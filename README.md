@@ -88,4 +88,4 @@ This project is ready to deploy on **Vercel**.
 
 GitHub: https://github.com/Itsmahnor/
 
-LinkedIn: inkedin.com/in/mahnoor-sarfraz-007bb0303/
+LinkedIn: [inkedin.com/in/mahnoor-sarfraz-007bb0303/](https://www.linkedin.com/in/mahnorsarfraz/)
